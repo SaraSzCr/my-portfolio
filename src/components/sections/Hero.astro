@@ -26,6 +26,9 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
 
 <Section>
   <div class="container">
+    <figure>
+      <img src={image} alt={name} />
+    </figure>
     <div class="info">
       <h1>{name}</h1>
       <h2>{label}</h2>
@@ -79,9 +82,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
         }
       </footer>
     </div>
-    <figure>
-      <img src={image} alt={name} />
-    </figure>
+    
   </div>
 </Section>
 
@@ -90,8 +91,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
+    gap: 2rem;
   }
 
   .info {
@@ -156,7 +156,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
 
   @media (width <= 700px) {
     .container {
-      flex-direction: column-reverse;
+      flex-direction: column;
     }
 
     .info {
