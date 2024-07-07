@@ -68,14 +68,14 @@
   ],
   "education": [
     {
-      "institution": "Universitat Oberta de Catalunya",
-      "url": "https://www.uoc.edu/portal/es/index.html",
-      "area": "Ingeniero de Software",
-      "studyType": "Bachelor",
-      "startDate": "2003-01-01",
-      "endDate": "2009-01-01",
-      "score": "4.0",
-      "courses": ["DB1101 - Basic SQL"]
+      "institution": "Adalab",
+      "url": "https://adalab.es/",
+      "area": "Bootcamp desarrollo web",
+      "studyType": "",
+      "startDate": "2023-Octubre",
+      "endDate": "2024-Marzo",
+      "score": "",
+      "courses": [""]
     }
   ],
   "awards": [
@@ -106,84 +106,58 @@
   "skills": [
     {
       "name": "HTML",
-      "level": "Master",
-      "keywords": ["Desarrollo Web", "Frontend"]
+      "level": "",
+      "keywords": []
     },
     {
       "name": "CSS",
-      "level": "Master",
-      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SASS",
+      "level": "",
+      "keywords": []
     },
     {
       "name": "JavaScript",
-      "level": "Master",
-      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
-    },
-    {
-      "name": "Tailwind",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "CSS Framework",
-        "Diseño Responsive"
-      ]
-    },
-    {
-      "name": "TypeScript",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "Backend",
-        "JavaScript Superset"
-      ]
-    },
-    {
-      "name": "Node",
-      "level": "Avanzado",
-      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
-    },
-    {
-      "name": "MySQL",
-      "level": "Avanzado",
-      "keywords": [
-        "Bases de Datos",
-        "SQL",
-        "Almacenamiento de Datos",
-        "Backend"
-      ]
-    },
-    {
-      "name": "Git",
-      "level": "Avanzado",
-      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
-    },
-    {
-      "name": "GitHub",
-      "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones",
-        "Colaboración",
-        "Código Fuente",
-        "Git"
-      ]
-    },
-    {
-      "name": "Next.js",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "React Framework",
-        "SSR",
-        "Static Generation"
-      ]
+      "level": "",
+      "keywords": [""]
     },
     {
       "name": "React",
-      "level": "Avanzado",
-      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+      "level": "",
+      "keywords": [""]
+    },
+    {
+      "name": "Node",
+      "level": "",
+      "keywords": [""]
+    },
+    {
+      "name": "MySQL",
+      "level": "Avanzad",
+      "keywords": [""]
+    },
+    {
+      "name": "Git",
+      "level": "",
+      "keywords": [""]
+    },
+    {
+      "name": "GitHub",
+      "level": "",
+      "keywords": [""]
+    },
+    {
+      "name": "Next.js",
+      "level": "",
+      "keywords": [""]
+    },
+    {
+      "name": "MongoDB",
+      "level": "",
+      "keywords": [""]
     }
   ],
   "languages": [
@@ -193,7 +167,7 @@
     },
     {
       "language": "English",
-      "fluency": "Advanced"
+      "fluency": "Proficient"
     }
   ],
   "interests": [
@@ -210,45 +184,41 @@
   ],
   "projects": [
     {
-      "name": "mars.codes",
+      "name": "Adatares",
       "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
-      "highlights": ["Elige tu propia aventura", "En desarrollo"],
-      "url": "https://mars.codes"
+      "description": "Conoce al equipo de programadoras web: Adatares",
+      "highlights": ["Web responsive", "HTML", "CSS", "SASS"],
+      "url": "https://saraszcr.github.io/Adatares/"
     },
     {
-      "name": "AdventJS",
+      "name": "Guess the number",
       "isActive": true,
-      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
-      "highlights": [
-        "+1 millón de visitas",
-        "Multidioma",
-        "JavaScript & TypeScript"
-      ],
-      "url": "https://adventjs.dev"
+      "description": "Adivina un número aleatorio entre 1 y 100 en un límite de intentos.",
+      "highlights": ["HTML", "CSS", "JavaScript"],
+      "url": "https://saraszcr.github.io/guess-the-number/"
     },
     {
-      "name": "Codember",
+      "name": "Harry Potter finder",
       "isActive": true,
-      "description": "Juego interactivo de programación con retos y secretos",
-      "highlights": ["+2000 usuarios activos", "Retos para cualquier lenguaje"],
-      "url": "https://codember.dev"
+      "description": "Aplicación web SPA para buscar y filtrar los personajes de Harry Potter",
+      "highlights": ["HTML", "CSS", "SASS", "BEM", "JavaScript", "React"],
+      "url": "https://saraszcr.github.io/Harry-Potter-finder/"
     },
     {
-      "name": "codi.link",
+      "name": "API server recipes",
       "isActive": true,
-      "description": "Playground de código HTML, CSS y JavaScript para compartir",
-      "highlights": ["100k visitas al mes", "Desarrollado por la comunidad"],
-      "url": "https://codi.link",
-      "github": "https://github.com/midudev/codi.link"
+      "description": "Creación de API RESTful de recetas de cocina",
+      "highlights": ["Express.js", "Node.js", "MySQL"],
+      "url": "",
+      "github": "https://github.com/SaraSzCr/api-server-recipes"
     },
     {
       "name": "Pruebas Técnicas",
       "isActive": true,
-      "description": "Lista de pruebas técnicas de empresas para practicar programación",
-      "highlights": ["100% gratuito", "+500 soluciones de la comunidad"],
-      "url": "https://pruebastecnicas.com",
-      "github": "https://github.com/midudev/pruebas-tecnicas"
+      "description": "",
+      "highlights": ["", "", ""],
+      "url": "",
+      "github": ""
     },
     {
       "name": "miduConf",
