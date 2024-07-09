@@ -9,9 +9,13 @@ import { work } from "@cv"
     {
       work.map(
         ({ name, startDate, endDate, position, summary, highlights, url }) => {
-          const startYear = new Date(startDate).getFullYear()
+          const startYear = new Date(startDate).getFullYear();
+          const startMonth = ("0" + (new Date(startDate).getMonth() + 1)).slice(-2);
           const endYear =
             endDate != null ? new Date(endDate).getFullYear() : "Actual"
+          const endMonth = endDate != null ? ("0" + (new Date(endDate).getMonth() + 1)).slice(-2) : ""
+
+          const years = `${startMonth}/${startYear} - ${endMonth}/${endYear}`
 
           return (
             <li>
@@ -27,17 +31,7 @@ import { work } from "@cv"
                   </div>
 
                   <div>
-                    <time 
-                      datetime={startDate}
-                      data-title={startDate}>
-                        {startYear}
-                    </time>
-                    {" - "}
-                    <time 
-                      datetime={endDate}
-                      data-title={endDate}>
-                        {endYear}
-                    </time>
+                    <time>{years}</time>
                   </div>
                 </header>
 
