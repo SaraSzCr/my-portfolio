@@ -29,51 +29,73 @@
   },
   "work": [
     {
-      "name": "midudev",
-      "position": "Divulgador sobre Programación Web",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2021-01-01",
-      "endDate": null,
-      "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
-      "highlights": ["Started the company"]
+      "name": "Guys and St Thomas’ NHS Foundation Trust",
+      "position": "Enfermera Senior (Deputy Sister)",
+      "url": "https://www.guysandstthomas.nhs.uk/",
+      "startDate": "2021-04",
+      "endDate": "2024-05-31",
+      "summary": "Evaluación, planificación, implementación e intervención de cuidados de enfermería.Supervisión clínica del equipo de enfermería, auxiliares de enfermería y estudiantes. Coordnación de la gestión diaria del área clínica, incluyendo manejo del equipo y delegación de tareas. Mentora de personal en prácticas",
+      "highlights": []
     },
     {
-      "name": "Adevinta",
-      "position": "Lead Frontend Architect",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2016-06-01",
-      "endDate": "2022-09-01",
-      "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
-      "highlights": ["Started the company"]
+      "name": "Guy's and St Thomas' NHS Foundation Trust",
+      "position": "Enfermera",
+      "url": "https://www.guysandstthomas.nhs.uk/",
+      "startDate": "2019-07",
+      "endDate": "2021-04",
+      "summary": "Evaluación, planificación, implementación e intervención de cuidados de enfermería en las consultas de traumatología y ortopedia.",
+      "highlights": []
     },
     {
-      "name": "Hubii",
-      "position": "Senior FrontEnd Developer",
-      "startDate": "2011-03-01",
-      "endDate": "2016-05-01",
-      "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
-      "highlights": ["Started the company"]
+      "name": "Central London Community Healthcare",
+      "position": "Enfermera",
+      "url": "https://clch.nhs.uk/",
+      "startDate": "2010-07",
+      "endDate": "2012-07",
+      "summary": "Evaluación, planificación, implementación e intervención de cuidados de enfermería en la planta hospitalaria de traumatología principalmente.",
+      "highlights": []
+    },
+    {
+      "name": "Fundación Jiménez Díaz",
+      "position": "Enfermera",
+      "url": "https://www.fjd.es/",
+      "startDate": "2012-07",
+      "endDate": "2019-07",
+      "summary": "Evaluación, planificación, implementación e intervención de cuidados de enfermería en la planta hospitalaria de traumatología. Con disponible para cualquier planta del hospital cuando era requerido",
+      "highlights": []
     }
   ],
   "volunteer": [
     {
-      "organization": "Organization",
-      "position": "Volunteer",
-      "url": "https://organization.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description…",
-      "highlights": ["Awarded 'Volunteer of the Month'"]
+      "organization": "",
+      "position": "",
+      "url": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": []
     }
   ],
   "education": [
     {
       "institution": "Adalab",
-      "url": "https://adalab.es/",
+      "url": "https://www.adalab.es/",
+      "urlName": "Adalab",
       "area": "Bootcamp desarrollo web",
       "studyType": "",
-      "startDate": "2023-Octubre",
-      "endDate": "2024-Marzo",
+      "startDate": "2023-10",
+      "endDate": "2024-03",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Escuela Universitaria de Enfermería - Fundación Jiménez Díaz, UAM",
+      "url": "https://www.fjd.es/escuela-enfermeria",
+      "urlName": "FJD",
+      "area": "Diplomada Universitaria en Enfermería",
+      "studyType": "",
+      "startDate": "2007-10",
+      "endDate": "2010-06",
       "score": "",
       "courses": [""]
     }
@@ -105,12 +127,12 @@
   ],
   "skills": [
     {
-      "name": "HTML",
+      "name": "HTML5",
       "level": "",
       "keywords": []
     },
     {
-      "name": "CSS",
+      "name": "CSS3",
       "level": "",
       "keywords": []
     },
@@ -136,7 +158,7 @@
     },
     {
       "name": "MySQL",
-      "level": "Avanzad",
+      "level": "",
       "keywords": [""]
     },
     {
@@ -150,23 +172,28 @@
       "keywords": [""]
     },
     {
-      "name": "Next.js",
+      "name": "MongoDB",
       "level": "",
       "keywords": [""]
     },
     {
-      "name": "MongoDB",
+      "name": "Agile",
+      "level": "",
+      "keywords": [""]
+    },
+    {
+      "name": "SCRUM",
       "level": "",
       "keywords": [""]
     }
   ],
   "languages": [
     {
-      "language": "Spanish",
-      "fluency": "Native speaker"
+      "language": "Español",
+      "fluency": "Nativo"
     },
     {
-      "language": "English",
+      "language": "Inglés",
       "fluency": "Proficient"
     }
   ],
@@ -211,20 +238,6 @@
       "highlights": ["Express.js", "Node.js", "MySQL"],
       "url": "",
       "github": "https://github.com/SaraSzCr/api-server-recipes"
-    },
-    {
-      "name": "Pruebas Técnicas",
-      "isActive": true,
-      "description": "",
-      "highlights": ["", "", ""],
-      "url": "",
-      "github": ""
-    },
-    {
-      "name": "miduConf",
-      "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-      "highlights": ["+15k tickets repartidos", "+50k espectadores en directo"],
-      "url": "https://miduconf.com"
     }
   ]
 }
